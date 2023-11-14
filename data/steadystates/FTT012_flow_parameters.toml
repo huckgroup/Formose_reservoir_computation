@@ -1,0 +1,110 @@
+#This dictionary defines parameters that cannot be changed during an experiment
+experiment_name = "FTT012"
+flow_unit = "µl/min"
+reactor_volume = 435 #in ul
+concentration_unit = "mM"
+solvent = "water" #automatically adjust this syringe to match RT
+solvent_split = {water_1 = 0.5, water_2 = 0.5}
+
+[syringe_concentrations]
+DHA = 261
+NaOH = 160
+CaCl2 = 78.3
+formaldehyde = 560
+
+[standard_parameters]
+#parameters that can be modified but are generally static
+residence_time = 2 #in minutes
+time_step = 1
+[standard_parameters.syringe_parameters]
+#The concentration of the reagent inside of the reactor_concentrations
+#this value will be used as the base value to modulate from in dynamic flows
+DHA = {reactor_concentration = 50, type = "steady_state"}
+NaOH = {reactor_concentration = 30, type = "steady_state"} 
+CaCl2 = {reactor_concentration = 15, type = "steady_state"}
+formaldehyde = {reactor_concentration = 100, type = "steady_state"}
+
+[[sections]]
+length = 3600
+[sections.syringe_parameters]
+NaOH = {reactor_concentration = 30.0}
+formaldehyde = {reactor_concentration = 80.0}
+
+[[sections]]
+length = 1800
+[sections.syringe_parameters]
+NaOH = {reactor_concentration = 30.6214}
+formaldehyde = {reactor_concentration = 74.0936}
+
+[[sections]]
+length = 1800
+[sections.syringe_parameters]
+NaOH = {reactor_concentration = 32.6819}
+formaldehyde = {reactor_concentration = 70.8834}
+
+[[sections]]
+length = 1800
+[sections.syringe_parameters]
+NaOH = {reactor_concentration = 29.7955}
+formaldehyde = {reactor_concentration = 61.1169}
+
+[[sections]]
+length = 1800
+[sections.syringe_parameters]
+NaOH = {reactor_concentration = 25.1818}
+formaldehyde = {reactor_concentration = 51.0274}
+
+[[sections]]
+length = 1800
+[sections.syringe_parameters]
+NaOH = {reactor_concentration = 20.0}
+formaldehyde = {reactor_concentration = 45.0}
+
+[[sections]]
+length = 1800
+[sections.syringe_parameters]
+NaOH = {reactor_concentration = 17.8659}
+formaldehyde = {reactor_concentration = 39.5461}
+
+[[sections]]
+length = 1800
+[sections.syringe_parameters]
+NaOH = {reactor_concentration = 21.1033}
+formaldehyde = {reactor_concentration = 29.5308}
+
+[[sections]]
+length = 1800
+[sections.syringe_parameters]
+NaOH = {reactor_concentration = 23.1978}
+formaldehyde = {reactor_concentration = 17.7811}
+
+[[sections]]
+length = 1800
+[sections.syringe_parameters]
+NaOH = {reactor_concentration = 39.4874}
+formaldehyde = {reactor_concentration = 13.8263}
+
+[[sections]]
+length = 1800
+[sections.syringe_parameters]
+NaOH = {reactor_concentration = 47.5862}
+formaldehyde = {reactor_concentration = 26.3605}
+
+[[sections]]
+length = 1800
+[sections.syringe_parameters]
+NaOH = {reactor_concentration = 40.0}
+formaldehyde = {reactor_concentration = 45.0}
+
+[[sections]]
+length = 1800
+[sections.syringe_parameters]
+NaOH = {reactor_concentration = 37.4884}
+formaldehyde = {reactor_concentration = 45.8773}
+
+[[sections]]
+length = 1800
+[sections.syringe_parameters]
+NaOH = {reactor_concentration = 12.6895}
+formaldehyde = {reactor_concentration = 60.6992}
+
