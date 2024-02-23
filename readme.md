@@ -8,6 +8,7 @@ Repository containing all data and code/notebooks relevant to the Formose Reserv
 - `preprocess` contains notebooks converting the raw ion signals together with the input flow profiles into processed data files
 - `analysis` contains notebooks used to perform the various reservoir computation tasks and for creation of all data-related figures in the publication and supporting information.
 - `plots` and `plots_extended` contain all data-related figures for the main manuscript and supporting information respectively (these are generated from the notebooks in the `analysis` directory)
+- `tables` contains tables in csv and latex format with scores and accuracies of training tasks
 
 ## Installation
 
