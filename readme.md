@@ -1,6 +1,6 @@
-# Formose Reservoir Computation
+# Chemical reservoir computation in a self-organizing reaction network
 
-Repository containing all data and code/notebooks relevant to the Formose Reservoir Computation publication.
+Repository containing all data and code/notebooks relevant to the publication: 'Baltussen, M.G., de Jong, T.J., Duez, Q., Robinson, W.E. & Huck, W.T.S. Chemical reservoir computation in a self-organizing reaction network.'
 
 ## Repository structure
 
