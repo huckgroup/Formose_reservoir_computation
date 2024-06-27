@@ -1,6 +1,8 @@
 # Chemical reservoir computation in a self-organizing reaction network
 
-Repository containing all data and code/notebooks relevant to the publication: 'Baltussen, M.G., de Jong, T.J., Duez, Q., Robinson, W.E. & Huck, W.T.S. Chemical reservoir computation in a self-organizing reaction network.'
+Repository containing all data and code/notebooks relevant to the publication: 
+
+Baltussen, M.G., de Jong, T.J., Duez, Q., Robinson, W.E. & Huck, W.T.S. Chemical reservoir computation in a self-organizing reaction network. _Nature_ (2024). [https://doi.org/10.1038/s41586-024-07567-x](https://doi.org/10.1038/s41586-024-07567-x)
 
 ## Repository structure
 
